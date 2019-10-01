@@ -32,11 +32,24 @@ npm install
 npm install --global @angular/cli
 ```
 
-4. Now you are able to run or build the project:
+4. Build
+```bash
+# The build artifacts will be stored in the `dist/` directory.
+npm run build
 
-Run `npm start` or `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#or
+ng build
+```
 
-Run `npm run build` or `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+5. Run
+```bash
+npm start
+# or
+ng serve
+
+http://localhost:4200/`
+```
+
 
 # FEATURES
 

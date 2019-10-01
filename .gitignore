@@ -16,6 +16,8 @@
 *.launch
 .settings/
 *.sublime-workspace
+.history
+
 
 # IDE - VSCode
 .vscode/*
@@ -40,3 +42,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+
+#######
+package-lock.json
+0.*
+tmp.*
+*.tmp
